@@ -38,6 +38,11 @@ div a:hover {
 }
 
 .product-style {
+  width: 893px;
+  height: 893px;
+  position: absolute;
+  inset: 0;
+  flex-shrink: 0; 
   border-radius: 893px;
   background: rgba(218, 244, 15, 0.20);
   background-blend-mode: overlay;
