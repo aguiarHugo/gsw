@@ -14,7 +14,32 @@
   margin: 0;
 }
 
-.border-custom-green {
-  border-color: #DAF40F; 
+div a {
+  padding: 8px 16px;
+  transition: .3s;
 }
 
+div a:hover {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px; 
+  border-radius: 56px;
+  color: #121212;
+  background: #DAF40F;
+  backdrop-filter: blur(10px); 
+}
+
+.hero-style {
+  border-radius: 893px;
+  background: rgba(255, 255, 255, 0.20);
+  background-blend-mode: overlay;
+  filter: blur(350px); 
+}
+
+.product-style {
+  border-radius: 893px;
+  background: rgba(218, 244, 15, 0.20);
+  background-blend-mode: overlay;
+  filter: blur(350px); 
+}
