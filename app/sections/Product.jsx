@@ -5,7 +5,6 @@ const Product = () => {
   return (
     <section id='product'>
         <div className="relative">
-            <div className="absolute inset-0 product-style" />           
             <div className="relative z-1 px-[17px] sm:px-[32px] text-white">
                 <div className="flex flex-col ml-[17px] text-white gap-[24px]"> 
                     <h2 className="text-[64px] font-extrabold  w-[292px] sm:w-[400px] md:w-[744px]">
@@ -26,6 +25,8 @@ const Product = () => {
                     </p>
                 </div>
             </div>
+        <div className="product-style" />           
+
         </div>
         <ColorPicker />
     </section>
