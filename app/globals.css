@@ -39,7 +39,7 @@ div a:hover {
 
 .product-style {
   width: 893px;
-  height: 893px;
+  height: 100vh;
   position: absolute;
   inset: 0;
   flex-shrink: 0; 
